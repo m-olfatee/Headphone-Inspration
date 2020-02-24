@@ -1,0 +1,348 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #2e2e2e;
+  }
+body {
+    font-family: 'Work Sans';
+    margin: 0 ;
+  }
+#header {
+    margin: 0 5%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+.logo img {
+    transition: 0.8s;
+  }
+.navigation ul {
+    margin: 0;
+  }
+.navigation li {
+    display: inline;
+  }
+.navigation li a {
+    text-decoration: none;
+    padding-left: 1vw;
+    color: rgb(110, 96, 99);
+    font-size: 0.8em;
+    transition: 0.3s;
+  }
+#header > div.navigation > ul > li:nth-child(1) {
+    padding-right: 3vw;
+  }
+#header > div.navigation > ul > li:nth-child(5) {
+    padding-left: 2vw;
+  }
+.navigation a:hover {
+    color: #ebccc2;
+    text-decoration: underline;
+  }
+.logo img:hover {
+    transform: scale(1.4);
+  }
+#language {
+      background-color: #2e2e2e;
+      border: none;
+      color: #ebccc2;
+  }
+aside{
+    position: fixed;
+    margin-top: 10vh;
+    margin-left: 5vw;
+}
+.out-circle {
+    position: relative;
+    border: 2px solid #fff;
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    left: -13px;
+    background-color: #2e2e2e;
+  }
+.in-circle {
+    position: absolute;
+    background-color: #2e2e2e;
+    border: 2px solid #888888;
+    height: 10px;
+    width: 10px;
+    border-radius:50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+  }
+.container {
+    display: flex;
+    left: -10px;
+  }
+.link {
+    margin-left: 1vw;
+  }
+.side-nav {
+    margin-left: -40%;
+    margin-top: 5%;
+  }
+.side-nav ul {
+    display:block;
+    width:150px;
+  } 
+.side-nav li {
+    padding:5vh 0;
+    text-indent: -8px;
+    border-left:2px solid #666666;
+    list-style: none;
+  }
+.side-nav li:nth-child(1){
+    padding-top: 0;
+  }
+body > main > div > ul > li:nth-child(5){
+    margin-bottom: 0;
+  }
+.side-nav li a {
+    display:inline-block;
+    color: rgb(150, 150, 150);
+    width:fit-content;
+    text-decoration:none;
+    padding:5px;
+    transition:0.7s ease;
+    }
+.side-nav li:hover a {
+    color:#fff;
+    text-indent: 5px; 
+  }
+.side-nav span {
+    font-size: 1.2em;
+    background-color: #2e2e2e;
+  }
+.headline{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.headline-text {
+    font-family: 'Work Sans';
+    margin: 15vh 0 15vh 30% ;
+    color: #ebccc2;
+}
+.headline-text h1{
+    font-size: 2.5em;
+    font-weight: lighter;
+    width: 40%;
+}
+.headline-img img{
+    height: 100%;
+    width: 90%;
+    margin: 5%;
+}
+.about-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center; 
+    gap: 5%;   
+}
+.about-img img{
+    width: 30vw;
+    padding: 10% 0 10% 25%;
+}
+.about-text{
+    margin-right: 15vw;
+    line-height: 1.5;
+    color: rgb(115, 115, 115);
+}
+.about-text h2{
+    color: #ebccc2;
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+.lounger {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+.lounger-img img {
+    margin-top: -8vh;
+    width: 100%;
+    height: 99.5vh;
+}
+.lounger-text h2 {
+    font-size: 2.5em;
+    color: #ebccc2;
+    font-weight: 500;
+    padding-bottom: 10vh;
+}
+.lounger-text p {
+    margin-right: 20%;
+    line-height: 2;
+    color: rgb(115, 115, 115);
+}
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+}
+.experience-img img{
+    margin-top: -8vh;
+    width: 100%;
+    height: 99.5vh;
+}
+.experience-text h2{
+    font-size: 2.5em;
+    color: #ebccc2;
+    font-weight: 500;
+    padding-bottom: 10vh;
+}
+.experience-text p{
+    margin-right: 20%;
+    line-height: 2;
+    color: rgb(115, 115, 115);
+}
+.inpiration{
+    display: flex;
+    flex-direction: column;
+}
+.inspiration-video{
+    justify-self: center;
+    align-self:center;
+}
+.video{
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+.inspiration-video-text{
+    margin-left: 25%;
+    margin-top: 5vh;
+
+}
+.inspiration-video-text h4{
+    font-weight: 200;
+    font-size: 1.2em;
+    color: #ebccc2;
+    margin-bottom: 2vh;
+}
+.inspiration-video-text h2{
+    color: #ebccc2;
+    font-size: 2.5em;
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+.sdc {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5%;
+}
+.sdc li{
+    display: inline;
+    font-size: 1.2em;
+    color: rgb(150, 150, 150);
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-right: 1%;
+    padding: 0.5% 2%;
+}
+.inspiration-video-text p{
+    font-size: 1.1em;
+    color: rgb(150, 150, 150);
+    margin-top: 3vh;
+    margin-bottom: 6vh;
+}
+.inspiration-img-section{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);    
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.inspiration-img img{
+    width: 100%;
+}
+.inspiration-img-second img{
+    width: 100%;
+}
+.inspiration-img-text{
+    width: 85%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.inspiration-text{
+    width: 85%;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.inspiration-img-text h4 {
+    font-weight: 200;
+    color: #ebccc2;
+    padding-bottom: 3%;
+}
+.inspiration-img-text h2 {
+    font-weight: 200;
+    color: #ebccc2;
+    padding-bottom: 5%;
+}
+.inspiration-img-text p {
+    color: rgb(150, 150, 150);
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+.inspiration-text{
+    width: 100%;
+}
+.inspiration-text h4{
+    font-weight: 200;
+    color: #ebccc2;
+    padding-bottom: 3%;
+}
+.inspiration-text h2{
+    font-weight: 200;
+    color: #ebccc2;
+    padding-bottom: 5%;
+}
+.inspiration-text p{
+    color: rgb(150, 150, 150);
+    letter-spacing: 2px;
+    line-height: 1.3;
+}
+.shop{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.shop img{
+    margin-top: -8vh;
+    width: 100%;
+    height: 99.5vh;
+}
+.headphone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headphone img {
+width: 78%;
+height: 78%;
+}
+.headphone h2{
+    font-weight: 200;
+    color: #ebccc2;
+    margin-bottom: 1vh;
+}
+.headphone h4{
+    font-weight: 200;
+    color: rgb(150, 150, 150);
+}
+.headphone h5{
+    font-weight: 200;
+    color: rgb(150, 150, 150);
+    margin: 1vh 0;
+}
+.headphone a{
+    color: rgb(84, 84, 84);
+    background-color: #ebccc2;
+    padding: 1% 5%;
+    text-decoration: none;
+    border-radius: 4px;
+}
